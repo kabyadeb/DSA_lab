@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;\
+using namespace std;
 const int N=1e5+10;
 
 int main()
@@ -13,7 +13,7 @@ int main()
         {
             int k;
             cin>>k;
-            if(k!=-1)
+            if(k!=0)
             {
                 d[i][j]=k;
             }
